@@ -9,7 +9,7 @@ description = "Internal recruitment review platform for ScottyLabs leadership."
 
 [[membership]]
 timeframe = "2026-2027"
-leads = ["Yuxiang-Huang", "hanabenko"]
+leads = ["Yuxiang-Huang", "hanabenko", "SamEthanMathew"]
 
 [[membership.members]]
 github-username = "Yuxiang-Huang"
@@ -43,4 +43,3 @@ title = "Reviewer"
 
 [[membership.members]]
 github-username = "SamEthanMathew"
-title = "Reviewer"
