@@ -41,12 +41,6 @@ check:
 - `KEYCLOAK_SERVER_URL`, `KEYCLOAK_PASSWORD`, `KEYCLOAK_REALM`,
   `KEYCLOAK_CLIENT_ID`, and `KEYCLOAK_USER_REALM` for Keycloak checks.
 
-The API also supports rate-limit configuration:
-
-- `VALIDATOR_VALIDATE_RATE_LIMIT`, defaulting to `60/minute`.
-- `VALIDATOR_RATE_LIMIT_USE_X_FORWARDED_FOR`, for deployments behind a proxy.
-- `VALIDATOR_RATE_LIMIT_DISABLED`, for trusted local or internal use.
-
 ## Validator Checks
 
 ### TOML Loading

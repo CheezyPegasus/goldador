@@ -5,10 +5,6 @@
 #   KEYCLOAK_SERVER_URL, KEYCLOAK_PASSWORD, KEYCLOAK_REALM,
 #   KEYCLOAK_CLIENT_ID, KEYCLOAK_USER_REALM — Keycloak admin API (member checks).
 #
-# Optional:
-#   VALIDATOR_VALIDATE_RATE_LIMIT (default 60/minute)
-#   VALIDATOR_RATE_LIMIT_USE_X_FORWARDED_FOR, VALIDATOR_RATE_LIMIT_DISABLED
-#
 # No BuildKit cache/bind mounts (Railway rejects many mount ids); Docker layer
 # cache still skips dependency sync when pyproject.toml / uv.lock are unchanged.
 

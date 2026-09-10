@@ -22,7 +22,6 @@ validator = [
   "fastapi>=0.115.6",
   "pygithub>=2.9.0",
   "python-keycloak>=7.1.0",
-  "slowapi>=0.1.9",
   "uvicorn[standard]>=0.32.1",
 ]
 codeowners-synchronizer = ["pygithub>=2.9.0"]
