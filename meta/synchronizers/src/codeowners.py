@@ -21,7 +21,7 @@ class CodeownersSynchronizer(AbstractSynchronizer):
 
     CODEOWNERS_FILE_PATH = ".github/CODEOWNERS"
     COMMIT_MESSAGE = "chore: auto-update CODEOWNERS"
-    FILE_PATH = "meta/synchronizers/codeowners.py"
+    FILE_PATH = "meta/synchronizers/src/codeowners.py"
 
     def __init__(
         self,
